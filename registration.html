@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function validateForm() {
+            let name = document.forms["myForm"]["name"].value;
+            let email = document.forms["myForm"]["email"].value;
+            let password = document.forms["myForm"]["password"].value;
+            if (name == "" || email == "" || password == "") {
+                alert("All fields must be filled out");
+                return false;
+            }
+
+                if(isNaN(mobile) || mobile.length != 10) {
+                    alert("Please enter a valid 10-digit mobile number");
+                    return false;
+                }
+            }
+        
+    </script>
+    
+</body>
+</html>
