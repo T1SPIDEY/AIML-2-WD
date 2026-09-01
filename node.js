@@ -1,4 +1,4 @@
-console.log("===variable===");
+
 let text="something";
 console.log(text);
 console.log("\n===function==");

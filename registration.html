@@ -11,7 +11,8 @@
             let name = document.forms["myForm"]["name"].value;
             let email = document.forms["myForm"]["email"].value;
             let password = document.forms["myForm"]["password"].value;
-            if (name == "" || email == "" || password == "") {
+            let mobile = document.forms["myForm"]["mobile"].value;
+            if (name == "" || email == "" || password == "" || mobile == "") {
                 alert("All fields must be filled out");
                 return false;
             }
